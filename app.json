@@ -38,7 +38,7 @@
     },
     "STRING": {
       "description": "Optional session string for logged-in user sessions",
-      "value": "BQFNtIsAcp31UKUct9FaoPNyQy-rASWxlHNu6tXQNyTqsGrc5QYBxl6_haSF6bQ2iVAPHxp1R3Jefnq5N97tIexRHDNFMz3le1t3-9GoZ78SiftJlgi1d51f1B6AYS8FDYTyBfHgpFydMLz2p8CQVf4ULC0jkae67Inb0M7RuWjuUPHkNaWjY-bas0HIZimz54kvgdMG2Aaq9VLL-i31epDywtkxmne2FX-ZvEgbP6MIVch0e9rUt6Xszjl5TGHEHJJVaKC8dwle-ijuwanE4f1jy6UarcY1cIdaJz3QkMBlkSfkvpVE-WZ5Zc2QfK-Kytty9y0qFTdZ4NNUt7-x-n_vq_eE6wAAAAG8c-7tAA",
+      "value": "",
       "required": false
     },
     "FORCE_SUB": {
