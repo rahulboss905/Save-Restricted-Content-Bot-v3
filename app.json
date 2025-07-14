@@ -18,12 +18,12 @@
     },
     "BOT_TOKEN": {
       "description": "Bot token from @BotFather",
-      "value": "7957462886:AAGFCA4YmVpRwqbiVb9eOfAEYOYvC9iCkv0",
+      "value": "",
       "required": true
     },
     "MONGO_DB": {
       "description": "MongoDB connection URL (https://cloud.mongodb.com)",
-      "value": "mongodb+srv://rahulm7777m:@cluster0.etghqii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "value": "",
       "required": true
     },
     "OWNER_ID": {
