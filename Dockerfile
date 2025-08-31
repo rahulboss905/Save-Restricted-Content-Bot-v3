@@ -1,17 +1,20 @@
 FROM python:3.10-slim
 
-# Update package lists and install all dependencies in a single layer
-RUN apt-get update && \
+# Add non-free repositories and update
+RUN echo "deb http://deb.debian.org/debian bullseye main non-free" > /etc/apt/sources.list && \
+    echo "deb http://deb.debian.org/debian bullseye-updates main non-free" >> /etc/apt/sources.list && \
+    echo "deb http://security.debian.org/debian-security bullseye-security main non-free" >> /etc/apt/sources.list && \
+    apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
         git \
         wget \
         curl \
         bash \
-        neofetch \
         ffmpeg \
-        software-properties-common \
-        python3-pip && \
+        python3-pip \
+        neofetch \
+        software-properties-common && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
